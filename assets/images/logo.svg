@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none" class="shopsmart-logo">
+  <defs>
+    <linearGradient id="ss-bag-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="ss-navy-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f233a"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <filter id="ss-shadow" x="-10%" y="-10%" width="120%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Logo Mark: Shopping Bag with Stylized 'S' and Cart Wheel -->
+  <g transform="translate(6, 6)" filter="url(#ss-shadow)">
+    <!-- Shopping Bag Handle -->
+    <path d="M 18 16 C 18 8, 34 8, 34 16" fill="none" stroke="#f97316" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Bag Body -->
+    <path d="M 10 16 L 42 16 L 39 48 C 39 50, 37 52, 35 52 L 17 52 C 15 52, 13 50, 13 48 Z" fill="url(#ss-bag-gradient)"/>
+    
+    <!-- Stylized S inside Bag (combining S curve & shopping cart basket) -->
+    <path d="M 31 23 C 31 21, 28 20, 25 20 C 21 20, 19 22, 19 25 C 19 30, 33 29, 33 36 C 33 41, 28 43, 24 43 C 19 43, 17 40, 17 38" 
+          fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+          
+    <!-- Shopping Cart Wheels integrated at base of bag -->
+    <circle cx="20" cy="51" r="3.2" fill="#0f233a" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="32" cy="51" r="3.2" fill="#0f233a" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="20" cy="51" r="1.2" fill="#f97316"/>
+    <circle cx="32" cy="51" r="1.2" fill="#f97316"/>
+  </g>
+
+  <!-- Wordmark: ShopSmart India -->
+  <g transform="translate(68, 12)">
+    <!-- Shop -->
+    <text x="0" y="27" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#0f233a" letter-spacing="-0.5">
+      Shop<tspan fill="#f97316">Smart</tspan>
+    </text>
+    
+    <!-- India Badge / Tagline -->
+    <rect x="136" y="10" width="46" height="18" rx="4" fill="#0f233a"/>
+    <text x="159" y="23" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.8">
+      INDIA
+    </text>
+    
+    <!-- Tagline underneath -->
+    <text x="1" y="42" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9" font-weight="600" fill="#64748b" letter-spacing="0.4">
+      Everything You Need, All in One Place.
+    </text>
+  </g>
+</svg>

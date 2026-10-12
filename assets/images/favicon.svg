@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="fav-bag-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded rect -->
+  <rect width="64" height="64" rx="14" fill="#0f233a"/>
+  
+  <!-- Handle -->
+  <path d="M 23 18 C 23 10, 41 10, 41 18" fill="none" stroke="#f97316" stroke-width="4.5" stroke-linecap="round"/>
+  
+  <!-- Bag Body -->
+  <path d="M 14 19 L 50 19 L 46 51 C 46 54, 44 56, 41 56 L 23 56 C 20 56, 18 54, 18 51 Z" fill="url(#fav-bag-grad)"/>
+  
+  <!-- Stylized S -->
+  <path d="M 38 27 C 38 25, 34 23, 31 23 C 26 23, 24 26, 24 29 C 24 35, 40 34, 40 42 C 40 48, 34 50, 29 50 C 24 50, 22 47, 22 45" 
+        fill="none" stroke="#ffffff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+        
+  <!-- Cart Wheels -->
+  <circle cx="25" cy="55" r="3.5" fill="#0f233a" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="39" cy="55" r="3.5" fill="#0f233a" stroke="#ffffff" stroke-width="1.5"/>
+</svg>
